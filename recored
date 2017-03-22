@@ -1,0 +1,4 @@
+1.mongoexport query ISODate not working
+example: we have filed, saleTime" : ISODate("2016-05-23T01:42:56Z"),then we mongoexport queryt this filed(SaleTime), -q "saleTime" : ISODate("2016-05-23T01:42:56Z")" not work,we shoud Conversion ISODate to Date 
+ISODate("2017-01-16T20:09:32.212Z").getTime(); 1484597372212
+-q  saleTime" : Date(1488556800000)
